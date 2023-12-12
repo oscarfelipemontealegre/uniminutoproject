@@ -36,3 +36,59 @@
     transform: rotate(360deg);
   }
 }
+
+/* Register.css */
+
+.title {
+  text-align: center;
+  color: #762222; /* Set the desired text color */
+  font-weight: bold;
+  font-size: 60px;
+}
+
+.img-icon {
+  display: block;
+  margin: auto; /* Center the image */
+  max-width: 100%; /* Make sure the image doesn't exceed its container's width */
+  height: auto; /* Maintain the image's aspect ratio */
+  margin-top: 20px; /* Adjust the top margin as needed */
+}
+
+form {
+  width: 50%; /* Set the desired width for the form */
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #538589; /* Add a border for better visibility */
+  border-radius: 20px; /* Add border-radius for rounded corners */
+  box-shadow: 0 0 10px rgba(202, 99, 99, 0.1); /* Add a subtle box shadow */
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 5px;
+  width: 30%;
+  text-align: right;
+  font-size: 30px;
+  font-weight: 60;
+}
+
+input {
+  width: 65%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.button-form {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button-form:hover {
+  background-color: #2980b9;
+}
